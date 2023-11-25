@@ -19,6 +19,20 @@
                 Below is a shortlist of my hobbies and projects I want to highlight,
                 in no particular order.
             </p>
+            <header>
+                <h2>
+                    <a href="https://github.com/sashazurek/bluesky-rss-bot">BART Service Updates for Bluesky Social</a>
+                </h2>
+            </header>
+            <p>
+                As an early adopter of Bluesky and a regular BART user, I was missing easy access to the BART service alerts
+                feed that's available on Formerly-Known-As-Twitter. I'm developing a bot which will automatically pull from
+                BART's own RSS feed, format the alerts, and then post them on a regular interval by leveraging
+                the <a href="https://github.com/bluesky-social/atproto">ATProto</a> API. It's currently fairly basic -- 
+                it polls the feed every 30 minutes and takes the topmost alert to post. In the future, I hope to
+                add more frequent polling, duplication checking with a Supabase database, and the ability for Bluesky users
+                to request specific line updates from the bot by tagging it in a post. The bot is built in Typescript.
+            </p>
             <header><h2>Cast Iron Restoration</h2></header>
             <div class="row">
                 <div class="column">
@@ -40,7 +54,10 @@
                 taking pans in not-so-good condition and restoring them! Sadly, the above
                 picture is the only example of a pan I've restored -- found the tiny pan
                 at the Marquette Goodwill.
+            </p>
         </main>
 	</body>
-    <footer><p>Questions or comments? Email me at <a href="mailto:sasha@sashafreyjazurek.xyz">sasha@sashafreyjazurek.xyz</a></p></footer>
+    <footer>
+        <p>Questions or comments? Email me at <a href="mailto:sashazurek@pm.me">sashazurek@pm.me</a></p>
+    </footer>
 </html>
