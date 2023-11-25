@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="dracula-css/dracula.css">
+        <title>Resume</title>
+    </head>
+    <body>
+        <header><h1>Sasha's Resume</h1></header>
+        <nav class="navbar">
+            <ul id="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="current" href="resume.html">Resume</a></li>
+                <li><a href="cats.html">My Cats</a></li>
+                <li><a href="projects.html">Hobbies</a></li>
+            </ul>
+        </nav>
+        <main>
+            <header><h2>Education</h2></header>
+            <header><h3>Northern Michigan University</h3></header>
+            <p style="text-align: left; font-weight: bold;">
+            Bachelor of Science in Computer Science with a minor in Mathematics<br>
+            GPA (not final): 3.71<br>
+            January 2020 => April 2022 (expected graduation)
+            </p>
+
+            <header><h2>Professional Experience</h2></header>
+            <header><h3>Kioxia America</h3></header>
+            <p style="text-align: left; font-weight: bold;">
+            SRDC Engineering Co-Op<br>
+            Remote, based out of Folsom, CA<br>
+            August 2020 => August 2021
+            </p>
+            <p>
+                <a href="files/KioxiaCoOpSummary.pdf">Summary PowerPoint of the co-op, with examples of my work.</a>
+            </p>
+            <p style="text-align: left; text-indent: 2em">
+                I worked with the Architecture team, primarily in performance
+                characterization and analysis of NVMe SSDs. The bulk of this was
+                spent developing and maintaining an automation toolset for our
+                internal characterization workloads. The tool uses industry-standard
+                tools like <a href="https://github.com/axboe/fio">FIO</a> and
+                <a href="https://pandas.pydata.org/">Pandas</a> inside a
+                Python framework to automatically run I/O tests and assemble an
+                Excel spreadsheet. This spreadsheet included graphs for each part of
+                the workload, plotting both IOPS and separated read/write latency against
+                time. This toolset saved my team an entire 8 hour day's worth of
+                effort from the previous workflow, which was a mostly manual process.
+            </p>
+            <p style="text-align: left; text-indent: 2em">
+                Secondarily, I assisted on numerous tasks that were given on an
+                as-needed basis. Examples of these include:
+                <ul class="intext" 
+                style="text-indent: -2em; text-align:left; padding-left: 8em">
+                    <li>Modification of 
+                        <a href="https://github.com/linux-nvme/nvme-cli">nvme-cli</a>
+                        for use in internal tools
+                    </li>
+                    <li>Function analysis of parts of the Linux NVMe Driver</li>
+                    <li>Documenting the functionality of various open source tools</li>
+                    <li>Debugging of external tools for investigation purposes</li>
+                </ul>
+            </p>
+            <header><h3>General Motors</h3></header>
+            <p style="text-align: left; font-weight: bold;">
+            EXCEL Student Intern - Software Engineering<br>
+            Remote<br>
+            June 2020 => August 2020
+            </p>
+            <p style="text-align: left; text-indent: 2em">
+            I shadowed the Connected Customer and Mobility Solutions team, following
+            their work on the iOS port of the myBrand app family (myChevrolet, myBuick, etc).
+            I was also given the opportunity to help research and promote design ideas for
+            the myBrand apps.
+            </p>
+        </main>
+    </body>
+    <footer>
+        <p>Questions or comments? Email me at <a href="mailto:sasha@sashafreyjazurek.xyz">sasha@sashafreyjazurek.xyz</a></p>
+    </footer>
+</html>
